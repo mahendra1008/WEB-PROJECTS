@@ -1,0 +1,214 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* css of body  */
+body{
+    display: flex;
+    background-color: rgb(211, 156, 67);
+    justify-content: center;
+    align-items: center;
+}
+
+/* css of container  */
+#container{
+    display: flex;
+   
+     height: 80%;
+    width: 40%;
+    background-color: rgb(234, 234, 226);
+}
+form{
+    height: 100%;
+    width: 100%;
+}
+/* #ele{
+    
+   
+    height: 60%;
+   width: 60%;
+   background-color: rgb(234, 234, 226);
+} */
+
+/* css of containers element  */
+input {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: blue
+  }
+  input:focus {
+    border-color: green
+  }
+#heading{
+ 
+    margin-left: 36%;
+    margin-bottom: 0%;
+   
+    font-weight: bolder;
+    font-size: 3rem;
+    
+    font-family: 'Baloo Tamma 2', cursive;
+
+}
+#heading3{
+    /* margin-top: 1%; */
+    margin-left: 13%;
+    position: relative;
+    font-weight: 1500;
+    font-family: 'Nunito Sans', sans-serif;
+}
+#heading4{
+    text-align: center;
+    margin: auto;
+    margin: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 2.5rem;
+}
+#heading5{
+    margin-top: 1%;
+    margin-left: 13%;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#fn{
+    margin-top: 1%;
+    margin-left: 13%;
+    padding-left: 0%;
+    padding-top: 2%;
+    
+}
+
+#fn #fname{
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+    margin-left: 0%;
+    margin-top: 2%;
+    margin-right: 4%;
+    font-size: 18px;
+    background-color: transparent;
+   /* border: none;
+   background-color: transparent;
+    resize: none;
+   outline: none;
+   border-bottom-width: 2px;
+   border-style: outset; */
+}
+#fn #lname{
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+    margin-left: 0%;
+    margin-top: 2%;
+    /* margin-right: 10%; */
+    font-size: 18px;
+    background-color: transparent;
+    /* border: none;
+     resize: none;
+    outline: none;
+    border-style: outset; */
+}
+
+#emai{
+    margin-top: 1%;
+    margin-left: 13%;
+    padding-left: 0%;
+    padding-top: 2%;
+    
+}
+#emai #email{
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+    margin-left: 0%;
+    margin-top: 2%;
+    /* margin-right: 8%; */
+    width: 90%;
+    font-size: 18px;
+    background-color: transparent;
+    /* border: none;
+     resize: none;
+    outline: none;
+    border-style: outset; */
+}
+
+#pass{
+    margin-top: 1%;
+    margin-left: 13%;
+    padding-left: 0%;
+    padding-top: 2%; 
+}
+#pass #password{
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+    margin-left: 0%;
+    margin-top: 2%;
+    margin-right: 4%;
+    /* margin-right: 10%; */
+    font-size: 18px;
+    background-color: transparent;
+    /* border: none;
+     resize: none;
+    outline: none;
+    border-style: outset; */
+}
+
+#num{
+    margin-top: 1%;
+    margin-left: 13%;
+    padding-left: 0%;
+    padding-top: 2%; 
+}
+#num #phone{
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+    margin-left: 0%;
+    margin-top: 2%;
+    /* margin-right: 8%; */
+    width: 90%;
+    font-size: 18px;
+    background-color: transparent;
+    /* border: none;
+     resize: none;
+    outline: none;
+    border-style: outset; */
+}
+
+#sab{
+    margin-top: 1%;
+    margin-left: 45%;
+    padding-left: 0%;
+    padding-top: 2%; 
+}
+
+#sab  #submit{
+    /* padding-left: 1%; */
+    /* padding-top: 1%; */
+    /* padding-bottom: 0.5%; */
+    padding: 2%;
+    margin-left: 0%;
+    margin-top: 8%;
+    margin-right: 4%;
+    /* margin-right: 10%; */
+    font-size: 18px;
+    width: 30%;
+    font-weight: bold;
+    border-radius: 20px;
+    font-family: 'Baloo Tamma 2', cursive;
+    background-color: rgb(65, 65, 214);
+    color:white;
+    cursor: pointer;
+}
+#sab  #submit:hover{
+    background-color: rgb(20, 20, 240);
+}
+
+/* #hori{
+    width: 42%;
+    display: inline-block;
+    
+} */
+
